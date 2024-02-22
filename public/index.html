@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- <meta name="viewport" content="width=device-width,initial-scale=1.0" /> -->
+		<!-- 聚焦页面放大问题 -->
+		<meta content="yes" name="apple-mobile-web-app-capable" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="icon" href="<%= BASE_URL %>logo.png" />
+		<!-- <title><%= htmlWebpackPlugin.options.title %></title> -->
+		<title>助企惠企专区</title>
+	</head>
+	<style>
+		html,
+		body,
+		#app {
+			/* height: 100%; */
+			margin: 0px;
+			padding: 0px;
+		}
+
+    /* 使用申明弹框 */
+    .sysm-dialog .el-dialog__header {
+       padding: 20px;
+       border-bottom: 1px solid #eee;
+    }
+    .sysm-dialog .el-dialog__header .el-dialog__title {
+      font-size: 16px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: #333333;
+    }
+    .sysm-dialog .el-dialog__headerbtn {
+      top: 25px;
+    }
+    .sysm-dialog .el-dialog__body {
+      padding: 20px 26px;
+      min-height: 110px;
+    }
+    .sysm-dialog .el-dialog__body p{
+      font-size: 14px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: #000000;
+    }
+    .sysm-dialog .el-dialog__footer {
+      padding: 16px 20px;
+      text-align: center;
+      border-top: .0625rem solid rgba(0, 0, 0, .09);
+    }
+    .sysm-dialog .el-dialog__footer .el-button {
+      width: 5.625rem;
+      height: 2rem;
+    }
+    .sysm-dialog .el-dialog__footer .el-button--primary {
+      background-color: #2055c9;
+      border-color: #2055c9;
+    }
+	</style>
+	<body>
+		<script src="./js/jquery.min.js"></script>
+
+		<script src="https://www.sczwfw.gov.cn/script/0/2106081014119642.js"></script>
+		<div id="app"></div>
+		<script src="https://www.sczwfw.gov.cn/script/0/2106081013258284.js"></script>
+
+		<script>
+			// let router = window.location.hash.split('?')[0]
+			// //如果是首页
+			// if (router.length < 3) {
+			// 	document.write('<' + 'div id=app' + '></' + 'div' + '>')
+			// } else {
+			// 	document.write('<' + 'script src=https://www.sczwfw.gov.cn/script/0/2106081014119642.js' + '></' + 'script' + '>')
+			// 	document.write('<' + 'div id=app' + '></' + 'div' + '>')
+			// 	document.write('<' + 'script src=https://www.sczwfw.gov.cn/script/0/2106081013258284.js' + '></' + 'script' + '>')
+			// }
+		</script>
+	</body>
+</html>

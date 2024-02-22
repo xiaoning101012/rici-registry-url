@@ -1,0 +1,46 @@
+{
+  "name": "my-package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "xuning",
+  "license": "ISC",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@form-create/element-ui": "^2.5.31",
+    "axios": "^0.27.2",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015-ie": "^6.7.0",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.13",
+    "es6-promise": "^4.2.8",
+    "unplugin-vue2-script-setup": "^0.11.4",
+    "vue": "^2.7.14",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.13",
+    "@vue/cli-plugin-router": "~4.5.13",
+    "@vue/cli-plugin-vuex": "~4.5.13",
+    "@vue/cli-service": "~4.5.13",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.7.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie<=8"
+  ],
+  "description": "助企惠企政务服务网 PC 前端",
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.ricitech.com/xuning0310/12309-platform-extension.git"
+  }
+}
