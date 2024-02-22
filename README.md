@@ -1,0 +1,1 @@
+# rici-registry-url
